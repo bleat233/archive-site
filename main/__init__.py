@@ -16,7 +16,7 @@ login_manager.login_view = 'users.login'
 login_manager.login_message_category = 'info'
 mail = Mail()
 
-engine = create_engine("postgres://diwxevtepyvlsy:458dc293d5d00b3d373133108a9230535744c75b429faed1e95935156f77fd51@ec2-54-158-232-223.compute-1.amazonaws.com:5432/di6j387sfrtsp", convert_unicode=True)
+engine = create_engine("postgresql://diwxevtepyvlsy:458dc293d5d00b3d373133108a9230535744c75b429faed1e95935156f77fd51@ec2-54-158-232-223.compute-1.amazonaws.com:5432/di6j387sfrtsp", convert_unicode=True)
 db_session = scoped_session(sessionmaker(autocommit=False,
                                          autoflush=False,
                                          bind=engine))
