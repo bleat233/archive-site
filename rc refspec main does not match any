@@ -1,0 +1,30 @@
+[33mcommit 50fa07ac62267885806241c12114924629a66825[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Marlenenene <lin@users.noreply.github.com>
+Date:   Sun Jun 27 09:42:30 2021 -0700
+
+    Revised:heroku
+
+[33mcommit dd6cfccac9c5ea677600d89f985a53f50ebc01a4[m[33m ([m[1;31morigin/master[m[33m)[m
+Merge: a197c6d 46a8076
+Author: Marlenenene <bleat@outlook.com>
+Date:   Sun Jun 28 18:36:02 2020 -0700
+
+    Merge branch 'master' of github.com:bleat233/flask-blog
+
+[33mcommit a197c6d068d87eecc401d6f0be10f45f1246dbdc[m
+Author: Marlenenene <bleat@outlook.com>
+Date:   Sun Jun 28 18:27:13 2020 -0700
+
+    committing
+
+[33mcommit 46a80763d55d45df49d0779fd5d08e9c5c2ae64c[m
+Author: Marlenenene <30934027+bleat233@users.noreply.github.com>
+Date:   Sun Jun 28 18:08:22 2020 -0700
+
+    Update README.md
+
+[33mcommit 7dc112ee260bfab045b2eee81b8850e112f59ef6[m
+Author: Marlenenene <30934027+bleat233@users.noreply.github.com>
+Date:   Sun Jun 28 18:02:45 2020 -0700
+
+    Initial commit
