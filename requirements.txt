@@ -14,3 +14,4 @@ flask_bcrypt
 flask_mail
 Pillow
 email_validator
+gunicorn==19.7.1
