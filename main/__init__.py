@@ -7,7 +7,7 @@ from config import Config
 from sqlalchemy import create_engine
 from sqlalchemy.orm import scoped_session, sessionmaker
 from sqlalchemy.ext.declarative import declarative_base
-import pymysql
+import os
 
 db = SQLAlchemy()
 bcrypt = Bcrypt()
@@ -16,7 +16,8 @@ login_manager.login_view = 'users.login'
 login_manager.login_message_category = 'info'
 mail = Mail()
 
-engine = create_engine('mysql+pymysql://bleat2333@bleatblog:Lin010427@bleatblog.mysql.database.azure.com/blogdb', convert_unicode=True)
+dburl=os.environ.get('DATABASE_URL')
+engine = create_engine(dburl, convert_unicode=True)
 db_session = scoped_session(sessionmaker(autocommit=False,
                                          autoflush=False,
                                          bind=engine))

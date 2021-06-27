@@ -1,9 +1,8 @@
-import pymysql
-
+import os
 
 class Config:
     SECRET_KEY = 'e3abbec48c43cdbff3cb6ce484d9772f'
-    SQLALCHEMY_DATABASE_URI = 'mysql+pymysql://bleat2333@bleatblog:Lin010427@bleatblog.mysql.database.azure.com/blogdb'
+    SQLALCHEMY_DATABASE_URI = os.environ.get('DATABASE_URL')
     SQLALCHEMY_TRACK_MODIFICATIONS = False
     MAIL_SERVER = 'smtp-mail.outlook.com'
     MAIL_PORT = 587
